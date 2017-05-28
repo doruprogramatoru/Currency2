@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/currency.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE xmldata SYSTEM "currency.dtd">
+
+    <xmldata>
+    ...
+    </xmldata>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT xmldata (CURRENCYRON|CURRENCYEUR|CURRENCYUSD)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT CURRENCYRON (Rand|Currency|value1|value5|value10|value50|value_1)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Rand (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Currency (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT value1 (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT value5 (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT value10 (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT value50 (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT value_1 (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT CURRENCYEUR (Rand|Currency|value1|value5|value10|value50|value_1)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT CURRENCYUSD (Rand|Currency|value1|value5|value10|value50|value_1)*>

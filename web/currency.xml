@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xmldata>
+    
+    <CURRENCYRON> 
+        <Rand>1</Rand>
+        <Currency>RON</Currency>
+        <value1>1 ban</value1>
+        <value5>5 bani</value5>
+        <value10>10 bani</value10>
+        <value50>50 bani</value50>
+        <value_1>1 leu</value_1>
+    </CURRENCYRON> 
+    
+    <CURRENCYEUR>
+        <Rand>2</Rand>
+        <Currency>EUR</Currency>
+        <value1>1 cent</value1>
+        <value5>2 cents</value5>
+        <value10>5 cents</value10>
+        <value50>10 cents</value50>
+        <value_1>20 cents</value_1>
+    </CURRENCYEUR>   
+     
+    <CURRENCYUSD> 
+        <Rand>3</Rand>
+        <Currency>USD</Currency>
+        <value1>1 cent</value1>
+        <value5>5 cents</value5>
+        <value10>10 cents</value10>
+        <value50>25 cents</value50>
+        <value_1>50 cents</value_1>
+    </CURRENCYUSD>    
+</xmldata>
